@@ -1,2 +1,2 @@
-[legaltech.center](http://legaltech.center)
+[berlinlegal.tech](https://berlinlegal.tech)
 ====================
