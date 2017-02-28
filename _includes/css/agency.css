@@ -344,9 +344,10 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
-    font-size: 3em;
-    line-height: 3em;
+    font-size: 2.5em;
+    line-height: 2em;
     text-shadow: 2px 2px 18px rgba(0,0,0,.2);
+    font-weight: 700;
 }
 
 header .intro-text .intro-heading img {
@@ -982,4 +983,20 @@ body {
 }
 .tv .screen.active {
     opacity: 1;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Default for 1600x900 videos 16:9 ratio*/
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

@@ -46,11 +46,10 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var tv,
   playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
 var vid = [
-    // {'videoId': 'KI51NnLBS_Q', 'startSeconds': 0, 'endSeconds': 5, 'suggestedQuality': 'hd720'},
-    {'videoId': 'ifhpY1QcFNY', 'startSeconds': 17, 'endSeconds': 303, 'suggestedQuality': 'hd720'}
+    {'videoId': 'ifhpY1QcFNY', 'startSeconds': 17, 'endSeconds': 303, 'suggestedQuality': 'hd720'},
+    {'videoId': 'KI51NnLBS_Q', 'startSeconds': 0, 'endSeconds': 5, 'suggestedQuality': 'hd720'}
   ],
-  randomVid = Math.floor(Math.random() * vid.length),
-  currVid = randomVid;
+  currVid = 0;
 
 $('.hi em:last-of-type').html(vid.length);
 
