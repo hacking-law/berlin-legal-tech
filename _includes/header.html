@@ -9,29 +9,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="{{site.baseUrl}}/img/logos/hacking-law.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" style="color: #000">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#media">Media</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#blog">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -41,12 +35,20 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header style="min-height: 100%;">
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            <div class="cover">
+                <div class="hi">
+                    <div class="intro-text" style="position: relative; top: 2em;">
+                        <div class="intro-heading"><span>Berlin Legal Tech</span> <span style="font-weight: 100">201<span id="cursor">_</span></span></div>
+                        <div class="intro-lead-in" style="font-style: normal;">Legal Tech Hackathon and Conference</div>
+                        <a href="#media" class="page-scroll btn btn-xl" style="margin-top: 3em;">Watch the 2017 Event in Review</a>
+                        <div style=" margin-top: 5em"><a href="http://legaltech.center" target="_blank"><img src="{{site.baseUrl}}/img/logos/legal-tech-center.png" style="width: 15em;"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tv">
+                <div class="screen mute" id="tv"></div>
             </div>
         </div>
     </header>
